@@ -1,5 +1,5 @@
 <div class="max-w-4xl mx-auto p-6">
-    <flux:heading size="lg" class="mb-6">Big Form</flux:heading>
+    <flux:heading size="lg">Big Form</flux:heading>
 
     @if (session()->has('message'))
         <div class="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
@@ -26,7 +26,7 @@
             <flux:error name="value" />
         </flux:field>
 
-        <flux:separator class="my-6" />
+        <flux:separator />
 
         <div class="mb-6">
             <div class="flex items-center justify-between mb-4">
